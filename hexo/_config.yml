@@ -1,0 +1,166 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Morax'Blog
+subtitle: '云'
+description: ''
+keywords:
+author: Morax
+language: zh-CN
+timezone: ''
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://elationaha.github.io/
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+plugins:
+  aplayer: # APlayer (fixed version)
+    enable: true
+    type: mini # fixed, mini
+    audios:
+      - name: Fool For You # audio name
+        artist: KASTRA # audio artist
+        url: http://m701.music.126.net/20240205105845/1788d772e5bdaeee9ac9a33494a1e91c/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7275727783/a347/318e/25c2/e60f92f288772c5eba5824a3cb5a8cf8.mp3 # audio url
+        cover: http://p2.music.126.net/yJ_wry8wM2NaCOIxGjUKaA==/109951168980097868.jpg?param=130y130 # audio cover url
+      - name: 离别开出花
+        artist: 就是南方凯
+        url: http://m801.music.126.net/20240205110053/a57d52f60046119034608468896123f8/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/32103522505/38c8/6ee7/6820/2c91b48f4b3524828092785f7381ca0a.mp3
+        cover: http://p1.music.126.net/MgrERz_auwIi5Km64TxwjQ==/109951169154658797.jpg?param=130y130
+      - name: Deep Blue
+        artist: William Black/Monika Santucci
+        url: http://m10.music.126.net/20240205134042/3e8898cdc06013c9621c7a92595c3f76/ymusic/0052/000e/5209/7860d190677d082bb7c2ec081242da13.mp3
+        cover: http://p2.music.126.net/ok5Y_4akrw9Q8jxLnLmz1g==/109951168278741178.jpg?param=130y130
+      - name: 零和Zero-Sum
+        artist: 星尘Infinity
+        url: http://m701.music.126.net/20240205111334/e030560df9053cbc8168c7165e063d98/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/13747750000/6de1/2bfb/4e94/c695373c70cdabb02d939c69a536fc10.mp3
+        cover: http://p2.music.126.net/onApH3YwD1iE4EHwkhikRQ==/109951167227751829.jpg?param=130y130
+      - name: GLOW
+        artist: CORSAK胡梦周/Robinson
+        url: http://m10.music.126.net/20240205114509/5468a0abf477efb235ede49c3f8b53ad/ymusic/0459/0208/5359/338efeebd95b8f463d3cd3f7372d9c43.mp3
+        cover: http://p1.music.126.net/-TGhVYmjttfveVgZU9oY4A==/109951164145804464.jpg?param=130y130
+      - name: 凄美地
+        artist: 郭顶
+        url: http://m801.music.126.net/20240205111822/8010d02a99acb90c12d904fb1af8a229/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28481676817/e4e6/2481/413b/471d269246c41b3a608aedea859e1cbb.mp3
+        cover: http://p2.music.126.net/wSMfGvFzOAYRU_yVIfquAA==/2946691248081599.jpg?param=130y130
+      - name: World.Execute(me);
+        artist: 星尘Infinity
+        url: http://m801.music.126.net/20240205112429/8982d9c3b07ccf62eee76df9f1030a5b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/27799012336/5ea4/6862/e852/58f8ee5450fe1c9f0ba28755a4ffeecd.mp3
+        cover: https://i0.hdslb.com/bfs/face/490e480061a4c7cfa3d009232854ac3874871778.jpg@240w_240h_1c_1s_!web-avatar-search-user.webp
+      - name: 循迹
+        artist: 王子健
+        url: http://m701.music.126.net/20240205112744/70f987a616488b8e5635046cfcf708d8/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/24417729720/bdcb/e012/b45a/dd71ace92540ad1783bad3f0f18d8763.mp3
+        cover: http://p2.music.126.net/pwBA9COg9G8bUw0GOUlDzQ==/109951168271926504.jpg?param=130y130
+      - name: Falling Down
+        artist: Wild Cards/James Delaney
+        url: http://m801.music.126.net/20240205115439/653facfe54c7a2a27a8184860e37a6fa/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/4717936488/8870/59de/354a/83569f4890b0703269533db420695c91.mp3
+        cover: http://p2.music.126.net/2hVRf4yNO241NUIwJXZ69Q==/109951165440785394.jpg?param=130y130
+      - name: 溯 (Reverse)
+        artist: CORSAK胡梦周/马吟吟
+        url: http://m701.music.126.net/20240205112744/70f987a616488b8e5635046cfcf708d8/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/24417729720/bdcb/e012/b45a/dd71ace92540ad1783bad3f0f18d8763.mp3
+        cover: http://p1.music.126.net/NTilljwKT_Hs9sLhBP1KKQ==/109951163416029067.jpg?param=130y130
+
+theme: redefine
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: https://github.com/ElationAha/elationaha.github.io
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: main
+
+mathjax:
+  tags: none               # or 'ams' or 'all'
+  single_dollars: true     # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9           # relative CJK char width
+  normal_width: 0.6        # relative normal (monospace) width
+  append_css: true         # add CSS to every page
+  every_page: false        # if true, every page will be rendered by mathjax regardless the `mathjax` setting in Front-matter of each article
+
+admin:
+  username: Morax_Zero
+  password_hash: $2a$10$DoE58DFnz.X1Hv2IxCPBcOWb3f8hSalJ24c7nbL4GMnIFQl1.XlTu
+  secret: my super secret phrase

@@ -1,0 +1,63 @@
+- links_category: 同学
+  has_thumbnail: true
+  list: 
+    - name: Miangoa
+      link: https://www.luogu.com.cn/user/752257
+      avatar: https://cdn.luogu.com.cn/upload/usericon/752257.png
+      thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/73lun8i6.png
+    - name: wby0961
+      link: https://www.luogu.com.cn/user/541680
+      avatar: https://cdn.luogu.com.cn/upload/usericon/541680.png
+      thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/r5wq5six.png
+    - name: BAIMON
+      link: https://www.luogu.com.cn/user/752418
+      avatar: https://cdn.luogu.com.cn/upload/usericon/752418.png
+      thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/3m8hsbo1.png
+    - name: wuuminghao666
+      link: https://www.luogu.com.cn/user/761402
+      avatar: https://cdn.luogu.com.cn/upload/usericon/761402.png
+      thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/6x8kr7hi.png
+    - name: __DIOsama__
+      link: https://www.luogu.com.cn/user/751866
+      avatar: https://cdn.luogu.com.cn/upload/usericon/751866.png
+      thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/eubredzf.png
+    - name: Ar_P
+      link: https://www.luogu.com.cn/user/820285
+      avatar: https://cdn.luogu.com.cn/upload/usericon/820285.png
+      thumbnail: https://cdn.luogu.org/images/bg/fe/DSCF0530-shrink.jpg
+    - name: Glowworm_sun
+      link: https://www.luogu.com.cn/user/767117
+      avatar: https://cdn.luogu.com.cn/upload/usericon/767117.png
+      thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/6xyxtom4.png
+    - name: Ink_Rain
+      link: https://www.luogu.com.cn/user/672022
+      avatar: https://cdn.luogu.com.cn/upload/usericon/672022.png
+      thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/f1omc9al.png
+    - name: KoMo_Mole
+      link: https://www.luogu.com.cn/user/671840
+      avatar: https://cdn.luogu.com.cn/upload/usericon/671840.png
+      thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/ypemcqn6.png
+    - name: metasequoia
+      link: https://www.luogu.com.cn/user/820296
+      avatar: https://cdn.luogu.com.cn/upload/usericon/820296.png
+      thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/ztoicw8b.png
+    - name: AugustSeaCloud
+      link: https://www.luogu.com.cn/user/822047
+      avatar: https://cdn.luogu.com.cn/upload/usericon/822047.png
+      thumbnail: https://cdn.luogu.org/images/bg/fe/DSCF0530-shrink.jpg
+    - name: tangzongsongzu
+      link: https://www.luogu.com.cn/user/754259
+      avatar: https://cdn.luogu.com.cn/upload/usericon/754259.png
+      thumbnail: https://cdn.luogu.org/images/bg/fe/DSCF0530-shrink.jpg
+    - name: buchaotijie
+      link: https://www.luogu.com.cn/user/952011
+      avatar: https://cdn.luogu.com.cn/upload/usericon/952011.png
+      thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/vjl7n9j8.png
+    - name: aa888888
+      link: https://www.luogu.com.cn/user/757428
+      avatar: https://cdn.luogu.com.cn/upload/usericon/757428.png
+      thumbnail: https://cdn.luogu.com.cn/upload/image_hosting/ki8juoy8.png
+    # - name: 
+    #   link: 
+    #   avatar: https://cdn.luogu.com.cn/upload/usericon/.png
+    #   thumbnail: 
