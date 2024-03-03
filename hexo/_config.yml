@@ -4,7 +4,7 @@
 
 # Site
 title: Morax'Blog
-subtitle: '云'
+subtitle: ''
 description: ''
 keywords:
 author: Morax
@@ -96,8 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-plugins:
-  aplayer: # APlayer (fixed version)
+aplayer: # APlayer (fixed version)
     enable: true
     type: mini # fixed, mini
     audios:
@@ -160,7 +159,6 @@ mathjax:
   append_css: true         # add CSS to every page
   every_page: false        # if true, every page will be rendered by mathjax regardless the `mathjax` setting in Front-matter of each article
 
-admin:
-  username: Morax_Zero
-  password_hash: $2a$10$DoE58DFnz.X1Hv2IxCPBcOWb3f8hSalJ24c7nbL4GMnIFQl1.XlTu
-  secret: my super secret phrase
+hexo_pro:
+  username: admim
+  password: 123
