@@ -111,10 +111,10 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/Wallpaper.png # light mode
-    dark: /images/Wallpaper.png # dark mode
+    light: /images/Wallpaper-light.webp # light mode
+    dark: /images/Wallpaper-dark.webp # dark mode
   # Home banner title
-  title: 云 海 洞 天
+  title: 云海洞天
   # Home banner subtitle
   subtitle:
     text: ["『岩石尚可有心，我自然如此』", "『谈及「磨损」，我亦无法逃避』", "『岩者，六合引之为骨』", "『石者，八荒韫玉而明』", "『圭璋，瞑仍不移其晖』", "『黄琮，破而不夺其坚』", "『苍璧，驱之长昭天理』", "『金玉，礼予天地四方』"] # subtitle text, array
@@ -129,8 +129,8 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color: 
-    light: "#C77A3A" # light mode
-    dark: "#C77A3A" # dark mode
+    light: "#000000" # light mode
+    dark: "#FFFFFF" # dark mode
   # Specific style of the text
   text_style: 
     # Title font size
@@ -392,14 +392,50 @@ plugins:
   feed:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
-  aplayer:
-    enable: false # Whether to enable
+  aplayer: # APlayer (fixed version)
+    enable: true
     type: fixed # fixed, mini
     audios:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
-        cover: # audio cover url
+      - name: Fool For You # audio name
+        artist: KASTRA # audio artist
+        url: http://m701.music.126.net/20240205105845/1788d772e5bdaeee9ac9a33494a1e91c/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/7275727783/a347/318e/25c2/e60f92f288772c5eba5824a3cb5a8cf8.mp3 # audio url
+        cover: http://p2.music.126.net/yJ_wry8wM2NaCOIxGjUKaA==/109951168980097868.jpg?param=130y130 # audio cover url
+      - name: 离别开出花
+        artist: 就是南方凯
+        url: http://m801.music.126.net/20240205110053/a57d52f60046119034608468896123f8/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/32103522505/38c8/6ee7/6820/2c91b48f4b3524828092785f7381ca0a.mp3
+        cover: http://p1.music.126.net/MgrERz_auwIi5Km64TxwjQ==/109951169154658797.jpg?param=130y130
+      - name: Deep Blue
+        artist: William Black/Monika Santucci
+        url: http://m10.music.126.net/20240205134042/3e8898cdc06013c9621c7a92595c3f76/ymusic/0052/000e/5209/7860d190677d082bb7c2ec081242da13.mp3
+        cover: http://p2.music.126.net/ok5Y_4akrw9Q8jxLnLmz1g==/109951168278741178.jpg?param=130y130
+      - name: 零和Zero-Sum
+        artist: 星尘Infinity
+        url: http://m701.music.126.net/20240205111334/e030560df9053cbc8168c7165e063d98/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/13747750000/6de1/2bfb/4e94/c695373c70cdabb02d939c69a536fc10.mp3
+        cover: http://p2.music.126.net/onApH3YwD1iE4EHwkhikRQ==/109951167227751829.jpg?param=130y130
+      - name: GLOW
+        artist: CORSAK胡梦周/Robinson
+        url: http://m10.music.126.net/20240205114509/5468a0abf477efb235ede49c3f8b53ad/ymusic/0459/0208/5359/338efeebd95b8f463d3cd3f7372d9c43.mp3
+        cover: http://p1.music.126.net/-TGhVYmjttfveVgZU9oY4A==/109951164145804464.jpg?param=130y130
+      - name: 凄美地
+        artist: 郭顶
+        url: http://m801.music.126.net/20240205111822/8010d02a99acb90c12d904fb1af8a229/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28481676817/e4e6/2481/413b/471d269246c41b3a608aedea859e1cbb.mp3
+        cover: http://p2.music.126.net/wSMfGvFzOAYRU_yVIfquAA==/2946691248081599.jpg?param=130y130
+      - name: World.Execute(me);
+        artist: 星尘Infinity
+        url: http://m801.music.126.net/20240205112429/8982d9c3b07ccf62eee76df9f1030a5b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/27799012336/5ea4/6862/e852/58f8ee5450fe1c9f0ba28755a4ffeecd.mp3
+        cover: https://i0.hdslb.com/bfs/face/490e480061a4c7cfa3d009232854ac3874871778.jpg@240w_240h_1c_1s_!web-avatar-search-user.webp
+      - name: 循迹
+        artist: 王子健
+        url: http://m701.music.126.net/20240205112744/70f987a616488b8e5635046cfcf708d8/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/24417729720/bdcb/e012/b45a/dd71ace92540ad1783bad3f0f18d8763.mp3
+        cover: http://p2.music.126.net/pwBA9COg9G8bUw0GOUlDzQ==/109951168271926504.jpg?param=130y130
+      - name: Falling Down
+        artist: Wild Cards/James Delaney
+        url: http://m801.music.126.net/20240205115439/653facfe54c7a2a27a8184860e37a6fa/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/4717936488/8870/59de/354a/83569f4890b0703269533db420695c91.mp3
+        cover: http://p2.music.126.net/2hVRf4yNO241NUIwJXZ69Q==/109951165440785394.jpg?param=130y130
+      - name: 溯 (Reverse)
+        artist: CORSAK胡梦周/马吟吟
+        url: http://m701.music.126.net/20240205112744/70f987a616488b8e5635046cfcf708d8/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/24417729720/bdcb/e012/b45a/dd71ace92540ad1783bad3f0f18d8763.mp3
+        cover: http://p1.music.126.net/NTilljwKT_Hs9sLhBP1KKQ==/109951163416029067.jpg?param=130y130
 #      - name: # audio name
 #        artist: # audio artist
 #        url: # audio url
